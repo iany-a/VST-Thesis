@@ -12,10 +12,12 @@ AudioPluginAudioProcessor::AudioPluginAudioProcessor()
                      #endif
                        )
 {
+//initialize code
 }
 
 AudioPluginAudioProcessor::~AudioPluginAudioProcessor()
 {
+//destructor for when the plugin gets deleted from a DAW
 }
 
 //==============================================================================

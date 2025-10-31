@@ -1,0 +1,4 @@
+pure virtual functions
+juce_AudioProcessor.h - inheriting from juce Audio juce::AudioProcessor
+if the function is =0, you need to provide implementation for all of those functions
+
