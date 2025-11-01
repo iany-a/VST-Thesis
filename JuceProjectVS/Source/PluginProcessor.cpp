@@ -55,7 +55,7 @@ bool AudioPluginAudioProcessor::isMidiEffect() const
 
 double AudioPluginAudioProcessor::getTailLengthSeconds() const
 {
-    return 0.0;
+	return 0.0; //when you stop processing through the plugin, how long it takes to reach silence
 }
 
 int AudioPluginAudioProcessor::getNumPrograms()
